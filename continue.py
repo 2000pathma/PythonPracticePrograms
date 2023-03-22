@@ -1,7 +1,7 @@
-#use continue
-no=0
-while no<10:
-    no=no+1
-    if no==5:
+i=0
+while i<10:
+    
+    i+=1
+    if i==5:
         continue
-    print(no)
+    print(i)

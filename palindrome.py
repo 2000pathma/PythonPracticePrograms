@@ -1,7 +1,10 @@
-#palindrome
-word1='malayalam'#not important to use word1[::-1]
-word2=word1[::-1]
-if word1==word2:
-    print("palindrome")
+# Python program to check if a string is palindrome or not
+# function which return reverse of a string 
+def isPalindrome(s):
+    return s == s[::-1]
+s =input("input:")
+ans = isPalindrome(s)
+if ans:
+    print("Yes")
 else:
-    print("not palindrome")
+    print("No")

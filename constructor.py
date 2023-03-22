@@ -1,8 +1,26 @@
-class SuperMarket:
-    def __init__(self, name, price, discount):
-        self.name= name
-        self.price = price
-        self.discount= discount
-product1 = SuperMarket('Soap',20,0.04)
-product2 = SuperMarket('Shampoo',10,0.04)
-print(product2.price)
+##class Demo():
+##    print("constructor")
+##    def __init__(self):
+##        self.name="vijay"
+##        self.age=23
+##    def display(self):
+##        print("name is :",self.name)
+##        print("age is :",self.age)
+##
+##obj=Demo()
+##obj.display()
+
+
+class Demo():
+    print("constructor")
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age 
+    def display(self):
+        print("name is :",self.name)
+        print("age is :",self.age)
+
+obj=Demo("vijay",20)
+obj.display() 
+
+#constructor is used to pass an arguements to the class at the time of object creations 

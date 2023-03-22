@@ -1,8 +1,15 @@
-#use brea
-no=0
-while no<10:
-    no=no+1
-    if no==5:
-        break#use only loop
-    print(no)
-print("after break")#not use outside
+##i=0
+##while i<10:
+##    print(i)
+##    i+=1
+##    if i==5:
+##        break
+##print("loop terminated")
+
+i=0
+while i<10:
+    print(i)
+    i+=1
+    if i==5:
+        break
+    print("loop terminated")

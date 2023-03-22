@@ -1,7 +1,11 @@
-def fact(number):
-    if n ==0:
+def factorial(x):
+    """This is a recursive function-call a function itself.
+    to find the factorial of an integer"""
+
+    if x == 1:
         return 1
     else:
-        return n * fact(n-1)
-    print(fact(0))
-    print(fact(5))
+        return (x * factorial(x-1))
+
+num =int(input("Entet num:"))
+print("The factorial of", num, "is", factorial(num))
